@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="이  력  서"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imgMain"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:src="@mipmap/ic_launcher_round"
+            android:clickable="true"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+            <EditText
+                android:id="@+id/korNameMain"
+                android:hint="한글이름"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:id="@+id/engNameMain"
+                android:hint="Eng Name"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:id="@+id/contactMain"
+                android:hint="연 락 처"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:id="@+id/emailMain"
+                android:hint="이 메 일"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:id="@+id/addressMain"
+                android:hint="주  소"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" ■ 학력"
+                    android:textStyle="bold" />
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:columnCount="4"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+
+                        android:layout_columnWeight="1"
+                        android:text="기간"
+                        android:textStyle="bold"
+                        android:background="@drawable/edge"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:text="학교"
+                        android:textStyle="bold"
+                        android:background="@drawable/edge"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:text="학과"
+                        android:textStyle="bold"
+                        android:background="@drawable/edge"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:text="비고"
+                        android:textStyle="bold"
+                        android:background="@drawable/edge"/>
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:background="@drawable/edge" />
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:background="@drawable/edge" />
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:background="@drawable/edge" />
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:background="@drawable/edge" />
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:background="@drawable/edge" />
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:background="@drawable/edge" />
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:background="@drawable/edge" />
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:background="@drawable/edge" />
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:background="@drawable/edge" />
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:background="@drawable/edge" />
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:background="@drawable/edge" />
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:background="@drawable/edge" />
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:background="@drawable/edge" />
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:background="@drawable/edge" />
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:background="@drawable/edge" />
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:background="@drawable/edge" />
+                </GridLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" ■ 경력"
+                    android:textStyle="bold" />
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:columnCount="3"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+
+                        android:layout_columnWeight="1"
+                        android:text="기간"
+                        android:textStyle="bold"
+                        android:background="@drawable/edge"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:text="기관"
+                        android:textStyle="bold"
+                        android:background="@drawable/edge"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:text="담당업무"
+                        android:textStyle="bold"
+                        android:background="@drawable/edge"/>
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:background="@drawable/edge" />
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:background="@drawable/edge" />
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:background="@drawable/edge" />
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:background="@drawable/edge" />
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:background="@drawable/edge" />
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:background="@drawable/edge" />
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:background="@drawable/edge" />
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:background="@drawable/edge" />
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:background="@drawable/edge" />
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:background="@drawable/edge" />
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:background="@drawable/edge" />
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:background="@drawable/edge" />
+                </GridLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" ■ 자격증"
+                    android:textStyle="bold" />
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:columnCount="3"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+
+                        android:layout_columnWeight="1"
+                        android:text="이름"
+                        android:textStyle="bold"
+                        android:background="@drawable/edge"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:text="기간"
+                        android:textStyle="bold"
+                        android:background="@drawable/edge"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:text="발급기관"
+                        android:textStyle="bold"
+                        android:background="@drawable/edge"/>
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:background="@drawable/edge" />
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:background="@drawable/edge" />
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:background="@drawable/edge" />
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:background="@drawable/edge" />
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:background="@drawable/edge" />
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:background="@drawable/edge" />
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:background="@drawable/edge" />
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:background="@drawable/edge" />
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:background="@drawable/edge" />
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:background="@drawable/edge" />
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:background="@drawable/edge" />
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical"
+                        android:gravity="center"
+                        android:layout_columnWeight="1"
+                        android:background="@drawable/edge" />
+                </GridLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="vertical">ㅗ
+        <Button
+            android:id="@+id/btnMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="자 소 서"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</LinearLayout>
